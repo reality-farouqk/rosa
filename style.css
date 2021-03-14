@@ -462,6 +462,7 @@ footer {
   max-width: 25rem;
   padding: 1rem;
   border-radius: 0.4rem;
+  outline: none;
 }
 
 .newsletter-btn {
@@ -475,6 +476,10 @@ footer {
   top: 50%;
   transform: translateY(-50%);
   margin-left: 10.5rem;
+}
+
+.fa-envelope:hover {
+  color: #000;
 }
 
 /* Media queries  */
@@ -589,6 +594,7 @@ footer {
 
   .newsletter-btn {
     margin-left: 7.5rem;
+    margin-right: -7.5rem;
   }
 }
 
