@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Reservations</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <!--Font awesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <!--Scroll reveal CDN-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/reservation.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </div>
+        <a href="index.html"><img src="./images/logo-rosa.png" alt="logo" /></a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="menu.html" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="reservation.html" class="nav-link">Reservations</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- header ends here -->
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="sub-container">
+        <!-- Form Container and content begins here  -->
+        <div class="form-container animate-left">
+          <div class="wrap">
+
+            <div class="section-content">
+              <div class="section-heading">
+                <div class="single-animation">
+                  <h5>Reservation</h5>
+                </div>
+                <h3 class="headline">Book Now</h3>
+              </div>
+
+              <!-- Form container below  -->
+              <form action="#" method="post" id="form-content">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="tel" name="phone" id="phone" placeholder="Phone">
+                <div class="date-time">
+                  <input type="date" name="date" id="date" placeholder="Date" value="">
+                  <input type="time" name="time" id="time" value="" placeholder="Time">
+                </div>
+                <div class="order-amount-field">
+                  <label for="select-amount">Select Amount</label>
+                  <select name="amount" id="select-amount">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <textarea name="message" id="message" cols="20" rows="7" placeholder="Type your message"></textarea>
+                <div class="submit-container">
+                  <input type="submit" value="Send Message">
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Hero ends Here -->
+
+  <!-- Footer sections Begins -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-content-about animate-top">
+          <h4>About Rosa</h4>
+          <div class="asterisk"><i id="Infinite" class="fas fa-asterisk"></i></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            molestias aspernatur fugit eveniet, voluptate, beatae ullam
+            voluptatum nemo tenetur ipsa dolores maiores distinctio porro!
+            Nihil libero molestias sed eum eos.
+          </p>
+        </div>
+
+        <div class="footer-content-openhours">
+          <h4>Open Hours</h4>
+          <div class="opening-day_time">
+            <div class="day-time">
+              <p class="day">Monday</p>
+              <p class="time">9.00-21.00</p>
+            </div>
+            <div class="day-time">
+              <p class="day">Tuesday</p>
+              <p class="time">9.00-21.00</p>
+            </div>
+            <div class="day-time">
+              <p class="day">Wednesday</p>
+              <p class="time">9.00-21.00</p>
+            </div>
+            <div class="day-time">
+              <p class="day">Thursday</p>
+              <p class="time">9.00-21.00</p>
+            </div>
+            <div class="day-time">
+              <p class="day">Friday</p>
+              <p class="time">9.00-02.00</p>
+            </div>
+            <div class="day-time">
+              <p class="day">Saturday</p>
+              <p class="time">9.00-02.00</p>
+            </div>
+            <div class="day-time">
+              <p class="day">Sunday</p>
+              <p class="time">Closed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-content-divider animate-bottom">
+          <div class="social-media">
+            <h4>Follow along</h4>
+            <ul class="social-icons">
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-tripadvisor"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="newsletter-container">
+            <h4>Newsletter</h4>
+            <form action="" class="newsletter-form">
+              <input type="text" class="newsletter-input" placeholder="Your email address..." />
+              <button class="newsletter-btn" type="submit">
+                <i class="fas fa-envelope"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>Copyright 2021 All Right Reserved, Designed with ❤ by RealityTech</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
