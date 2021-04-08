@@ -9,10 +9,14 @@ let body = selectElement("body")
 menuToggler.addEventListener('click', () => body.classList.toggle("open"))
 
 //active indicator
-
-// const active = selectElement(".nav-link")
-// console.log(active)
-
+let active = 0;
+let i;
+for ( i = 0; i < document.links.length; i++) {
+    if(document.links[i].href === document.URL) {
+        active = i;
+    }
+}
+document.links[active].className += " active";
 
 //scroll reveal
 window.sr = ScrollReveal();
