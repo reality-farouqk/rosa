@@ -627,6 +627,16 @@ footer {
   }
 }
 
+@media screen and (max-width: 500px) {
+  footer {
+    padding: 4.9rem;
+  }
+
+  .footer-content {
+    margin: 0 -2.4rem;
+  }
+}
+
 /* Animations */
 
 @keyframes fadeUp {
