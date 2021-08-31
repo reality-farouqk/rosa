@@ -139,7 +139,7 @@
         color: var(--main-font-color-dark);
       }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .special-recipe-container .container {
     padding: 1rem 0;
   }

@@ -210,7 +210,7 @@
         }
 
         
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     .subcontainer .header {
         font-size: 4rem;
         text-transform: unset;

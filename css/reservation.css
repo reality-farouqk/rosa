@@ -179,7 +179,7 @@ footer {
     font-weight: lighter;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     .hero .container {
         margin-bottom: -250px;
     }
